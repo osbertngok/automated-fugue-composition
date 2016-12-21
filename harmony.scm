@@ -189,7 +189,6 @@
          (union a (cdr b)))
         (#t (union (cons (car b) a) (cdr b)))))
 
-
 (define chord-progression-random-create
   (lambda ()
     (sub-chord-progression-random-create (key-center-chain-random-create key-center-graph) 1)
